@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="style.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/regina-script" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<!---------top-header----------->
+<body>
+    <div class="header">
+        <nav class="header-nav">
+            <h1 class="name">Tim Truong</h1>
+            <ul class="header-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutme.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!---------main-body----------->
+    <div class="main">
+        <i class="fa fa-smile-o" id="smile-icon"></i>
+        <h2 id="Skill">Skills</h2>
+        <div class="container">
+        <div class="C-card">
+        <svg class="C-Circle">
+            <circle class="C-Circle-Color" cx="50" cy="50" r="50"></circle>
+            <circle class="C-Circle-Color2" cx="50" cy="50" r="50"></circle>
+        </svg>
+        <h3 class="C-Percent">100%</h3>
+        <h3 class="C">C</h3>
+        </div>
+        <div class="CPP-card">
+        <svg class="CPP-Circle" >
+            <circle class="CPP-Circle-Color" cx="50" cy="50" r="50"></circle>
+            <circle class="CPP-Circle-Color2" cx="50" cy="50" r="50"></circle>
+        </svg>
+        <h3 class="CPP-Percent">80%</h3>
+        <h3 class="CPP">C++</h3>
+        </div>
+        <div class="Html-card">
+        <svg class="Html-Circle">
+            <circle class="Html-Circle-Color" cx="50" cy="50" r="50"></circle>
+            <circle class="Html-Circle-Color2" cx ="50" cy="50" r="50"></circle>
+        </svg>
+        <h3 class="Html-Percent">70%</h3>
+        <h3 class="Html">Html</h3>
+        </div>
+        <div class="CSS-card">
+        <svg class="CSS-Circle">
+            <circle class="CSS-Circle-Color" cx="50" cy="50" r="50"></circle>
+            <circle class="CSS-Circle-Color2" cx="50" cy="50" r="50"></circle>
+        </svg>
+        <h3 class="CSS-Percent">60%</h3>
+        <h3 class="CSS">CSS</h3>
+        </div>
+        </div>
+        <div class="Service-Container">
+        <h2 id="Service">Services</h2>
+        <div class="Responsive">
+            <i class="fa fa-laptop" id="laptop-icon" style="font-size: 36px;"></i>
+            <h4 id="skill-box1">Responsive Web Design</h4>
+            <p>Having a responsive design makes websites look beautiful in all platforms. Through my work and 
+                other applications, I can design websites that users can enjoy across different screen sizes.
+            </p>
+        </div>
+        <div class="Efficiency">
+            <i class="fa fa-gears" id="gears-icon" style="font-size: 36px;"></i>
+            <h4 id="skill-box2">Efficiency</h4>
+            <p>To execute and enable fast responses from web services and applications, I can offer high quality efficiency
+                to enable users the best usage experience and at the same time reduce completion time for users to enjoy.
+            </p>
+        </div>
+        <div class="Clean">
+            <i class="fa fa-code" id="code-bar" style="font-size:36px"></i>
+            <h4 id="skill-box3">Clean Code</h4>
+            <p>It's important to have good code readability for others to see. Making it easy to understand and to help
+                debug problems that dwells within.
+            </p>
+        </div>
+        </div>
+        <button onclick="darkMode()" class="theme-switcher" id="light-darkBtn">Dark</button>
+    </div>
+    <!---------bottom-header----------->
+    <footer class="bot">
+        <div class="social-media-links">
+            <p id="social-quicklinks">Social Media Links</p>
+            <a href="microsoft-edge:https://www.linkedin.com/in/tim-truong-0a7314217/" class ="social-media-linkedin">
+            <i class="fa fa-linkedin-square" id="linkedin-id"></i>
+            </a>
+            <a href="https://github.com/tim-truong" class="social-media-github">
+            <i class="fa fa-github-square" id="github-id"></i>
+            </a>
+        </div>
+        <p class="footer-copyright">© 2021 - 2022 Tim Truong</p>
+        <nav class="footer-nav">
+            <ul class="footer-links">
+            <div class="footer-links-container">
+            <p id="QL">Quick Links</p>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutme.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="">Resume</a></li>   
+            </div>
+            </ul>
+        </nav>
+    </footer>
+    </body>
+</html>
