@@ -527,6 +527,7 @@ and (max-width: 460px) {
 @media screen and (min-width: 300px)
 and (max-width: 399px) {
     html, body {
+        position: relative;
         width: 100%;
         overflow-x: hidden;
     }
