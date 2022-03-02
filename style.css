@@ -457,53 +457,70 @@ svg circle {
     color: white;
 }
 /*------------------media-queries-section-------------------*/
-@media screen and (min-width: 768px) 
+@media screen and (min-width: 950px) 
 and (max-width: 1023px) {
-    .header {
-        background-color: mintcream;
-        height: 100%;
-        overflow: hidden;
-    }
-    .header-nav {
-        display: flex;
-        padding: 15px 30px;
-        align-items: right;
-        justify-content: space-between;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-    }
-    .name {
-        font-family: 'Regina Script';
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .header-links {
-        align-items: right;
-        justify-content: center;
-        font-weight: 400;
-    }
-    .header-links li {
-        display: inline;
-        text-align: right;
-        margin-right: 20px;
-    }
-    .header-links li a {
-        text-decoration: none;
-        font-family: 'Montserrat';
-        color: black;
-        padding-right: 5px 5px;
-        position: relative;
-    }
-    .header-links li a::after {
-        content: '';
-        background: linear-gradient(to bottom right, #6889FF, #C668FF);
-        width: 0;
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        transition: width 0.5s ease-in-out;
-    }
-    .header-links li a:hover::after {
+    body {
         width: 100%;
     }
 }
+@media screen and (min-width: 900px) 
+and (max-width: 949px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 856px) 
+and (max-width: 899px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 806px) 
+and (max-width: 855px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 736px) 
+and (max-width: 805px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 671px) 
+and (max-width: 735px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 619px) 
+and (max-width: 670px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 555px) 
+and (max-width: 618px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 502px) 
+and (max-width: 554px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 461px) 
+and (max-width: 501px) {
+    body {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 400px) 
+and (max-width: 460px) {
+    html, body {
+        width: 100%;
+    }
+}
+
