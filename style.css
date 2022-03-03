@@ -757,7 +757,7 @@ and (max-width: 299px) {
     }
     .main {
         position: absolute;
-        height: 280%;
+        height: 300%;
         width: 100%;
     }
     #smile-icon {
