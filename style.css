@@ -727,9 +727,9 @@ and (max-width: 399px) {
     }
     .bot {
         position: absolute;
-        top: 260%;
+        top: 280%;
         width: 100%;
-        height: 85%;
+        height: 55%;
     }
     .footer-copyright {
         position: absolute;
@@ -757,7 +757,7 @@ and (max-width: 299px) {
     }
     .main {
         position: absolute;
-        height: 260%;
+        height: 280%;
         width: 100%;
     }
     #smile-icon {
@@ -791,7 +791,7 @@ and (max-width: 299px) {
     }
     .bot {
         position: absolute;
-        top: 260%;
+        top: 280%;
         width: 100%;
         height: 85%;
     }
