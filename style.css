@@ -689,6 +689,7 @@ and (max-width: 501px) {
 and (max-width: 399px) {
     html, body {
         width: 100%;
+        overflow-x: hidden;
     }
     .main {
         position: absolute;
