@@ -753,6 +753,7 @@ and (max-width: 399px) {
 and (max-width: 299px) {
     html, body {
         width: 100%;
+        overflow-x: hidden;
     }
     .main {
         position: absolute;
@@ -809,7 +810,7 @@ and (max-width: 299px) {
         top: 40%;
     }
     .theme-switcher {
-        right: 50px;
+        right: 220px;
     }
 }
 
