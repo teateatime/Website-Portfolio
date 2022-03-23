@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
     <title>My Website</title>
     <link href="style.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800" rel="stylesheet">
@@ -14,80 +14,91 @@
 </head>
 <!---------top-header----------->
 <body>
-    <div class="header">
-        <nav class="header-nav">
-            <h1 class="name">Tim Truong</h1>
-            <ul class="header-links">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./aboutme.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="">Resume</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!---------main-body----------->
+    <header class="nav-header">
+        <ul class="nav-links">
+            <div class="name">Tim Truong</div>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#Proj">Projects</a></li>
+        </ul>
+    </header>
     <div class="main">
         <i class="fa fa-smile-o" id="smile-icon"></i>
-        <h2 id="Skill">Skills</h2>
-        <div class="container">
-        <div class="C-card">
-        <svg class="C-Circle">
-            <circle class="C-Circle-Color" cx="50" cy="50" r="50"></circle>
-            <circle class="C-Circle-Color2" cx="50" cy="50" r="50"></circle>
-        </svg>
-        <h3 class="C-Percent">100%</h3>
-        <h3 class="C">C</h3>
+        <div class="my-info">
+            <h3 id="intro">About</h3>
+            <hr id="line-break">
+            <p class="info-body">Hello, I'm Tim.
+            <br>
+            I'm a full time CS student at UMass Lowell and an aspiring future software engineer and web developer.
+            <br>I'm passionate about Math and Science, particularly with programming and cosmology.<br>
+            I hope to build upon my knowledge and skills with programming to help further reach my goals as I aspire<br>
+            to become either a future software engineer or web developer. 
+            <br>Other than being passionate about programming, I genuinely like to play ping pong or video games. 
+            <br>Other hobbies that I usually do are making artwork, or doing morning walks.</p>
         </div>
-        <div class="CPP-card">
-        <svg class="CPP-Circle" >
-            <circle class="CPP-Circle-Color" cx="50" cy="50" r="50"></circle>
-            <circle class="CPP-Circle-Color2" cx="50" cy="50" r="50"></circle>
-        </svg>
-        <h3 class="CPP-Percent">80%</h3>
-        <h3 class="CPP">C++</h3>
-        </div>
-        <div class="Html-card">
-        <svg class="Html-Circle">
-            <circle class="Html-Circle-Color" cx="50" cy="50" r="50"></circle>
-            <circle class="Html-Circle-Color2" cx ="50" cy="50" r="50"></circle>
-        </svg>
-        <h3 class="Html-Percent">70%</h3>
-        <h3 class="Html">Html</h3>
-        </div>
-        <div class="CSS-card">
-        <svg class="CSS-Circle">
-            <circle class="CSS-Circle-Color" cx="50" cy="50" r="50"></circle>
-            <circle class="CSS-Circle-Color2" cx="50" cy="50" r="50"></circle>
-        </svg>
-        <h3 class="CSS-Percent">60%</h3>
-        <h3 class="CSS">CSS</h3>
-        </div>
-        </div>
-        <div class="Service-Container">
         <h2 id="Service">Services</h2>
-        <div class="Responsive">
-            <i class="fa fa-laptop" id="laptop-icon" style="font-size: 36px;"></i>
-            <h4 id="skill-box1">Responsive Web Design</h4>
-            <p>Having a responsive design makes websites look beautiful in all platforms. Through my work and 
-                other applications, I can design websites that users can enjoy across different screen sizes.
+        <div class="cards">
+            <div class="Responsive">
+                <i class="fa fa-laptop" id="laptop-icon" style="font-size: 36px;"></i>
+                <h4 id="skill-box1">Responsive Web Design</h4>
+                <p>Having a responsive design makes websites look beautiful in all platforms. Through my work and 
+                    other applications, I can design websites that users can enjoy across different screen sizes.
+                </p>
+            </div>
+            <div class="Efficiency">
+                <i class="fa fa-gears" id="gears-icon" style="font-size: 36px;"></i>
+                <h4 id="skill-box2">Efficiency</h4>
+                <p>To execute and enable fast responses from web services and applications, I can offer high quality efficiency
+                    to enable users the best usage experience and at the same time reduce completion time for users to enjoy.
+                </p>
+            </div>
+            <div class="Clean">
+                <i class="fa fa-code" id="code-bar" style="font-size:36px"></i>
+                <h4 id="skill-box3">Clean Code</h4>
+                <p>It's important to have good code readability for others to see. Making it easy to understand and to help
+                    debug problems that dwells within.
+                </p>
+            </div>
+        </div>
+    </div>
+    <h2 id="Proj">Projects</h2>
+    <img src="snake.png" alt="snake" id="snake_game_pic"/>
+    <img src="evil_smile.png" alt="evil-face" id="devil_emoji"/>
+    <div class="cards">
+        <div class="Snake_Game">
+            <h4 id="Snake_Game_Project">Snake</h4>
+            <p>An ongoing snake game project that is built using GUI applications
+                from the SFML library and C++. Utilizes various data structures
+                including but not limited to, vectors, stacks, and lists.
             </p>
         </div>
-        <div class="Efficiency">
-            <i class="fa fa-gears" id="gears-icon" style="font-size: 36px;"></i>
-            <h4 id="skill-box2">Efficiency</h4>
-            <p>To execute and enable fast responses from web services and applications, I can offer high quality efficiency
-                to enable users the best usage experience and at the same time reduce completion time for users to enjoy.
+        <div class="Evil_Wordle">
+            <h4 id="Evil_Wordle_Project">Evil Wordle</h4>
+            <p>An ongoing project that combines C++ and GUI graphics to create a Wordle game 
+            with a bit of a twist.
+            Essentially the computer rigs the game and makes the selected word dodgy each
+            time you enter a five-letter word. Even when you think you entered the correct
+            word, the computer tries to prevent you from guessing the right answer.
             </p>
         </div>
-        <div class="Clean">
-            <i class="fa fa-code" id="code-bar" style="font-size:36px"></i>
-            <h4 id="skill-box3">Clean Code</h4>
-            <p>It's important to have good code readability for others to see. Making it easy to understand and to help
-                debug problems that dwells within.
+    </div>
+    <div class="contact-me-main">
+        <div class="contact-info">
+            <h3 class="contact-intro">Interested in contacting me?</h3>
+            <div class="contact-body" id="contact-me">
+            <p>Heres how you can contact me.
+            <p id="Choices">You can either choose to email me, call my number or via Linkedin.</p>
+            <br><br>
+            <div class="social-contacts">
+            1) My Email: ttruong576581@gmail.com
+            <br>
+            2) Phone Number: 774-633-5744
+            <br>
+            3) Linkedin Sign In
+            </div>
             </p>
+            </div>
         </div>
-        </div>
-        <button onclick="darkMode()" class="theme-switcher" id="light-darkBtn">Dark</button>
     </div>
     <!---------bottom-header----------->
     <footer class="bot">
@@ -105,13 +116,12 @@
             <ul class="footer-links">
             <div class="footer-links-container">
             <p id="QL">Quick Links</p>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./aboutme.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="">Resume</a></li>   
+            <li><a href="#intro">About</a></li>
+            <li><a href="#Proj">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
             </div>
             </ul>
         </nav>
     </footer>
-    </body>
+</body>
 </html>
