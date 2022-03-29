@@ -56,7 +56,6 @@ html {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -724,7 +723,6 @@ and (max-width: 510px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -895,7 +893,6 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -1065,7 +1062,6 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -1125,7 +1121,6 @@ and (max-width: 510px) and (min-height: 821px) and (max-height: 850px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -1198,7 +1193,6 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -1257,7 +1251,6 @@ and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -1319,7 +1312,6 @@ and (max-width: 299px) {
         top: 50px;
         right: 0;
         font-size: 20px;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
