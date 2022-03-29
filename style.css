@@ -701,7 +701,7 @@ and (max-width: 650px)  and (min-height: 700px) and (max-height: 1000px) {
 and (max-width: 510px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -732,7 +732,7 @@ and (max-width: 510px) {
         display: block;
       }
     .show {
-        display:block;
+        display:inline-flex;
     }
     #smile-icon {
         left: 28%;
@@ -870,7 +870,7 @@ and (max-width: 510px) {
 and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -901,7 +901,7 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
         display: block;
       }
     .show {
-        display:block;
+        display: inline-flex;
     }
     #smile-icon {
         left: 23%;
@@ -1038,7 +1038,7 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
 and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -1069,7 +1069,7 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
         display: block;
       }
     .show {
-        display:block;
+        display: inline-flex;
     }
     .burger-name {
         position: absolute;
@@ -1096,7 +1096,7 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
 and (max-width: 510px) and (min-height: 821px) and (max-height: 850px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -1127,7 +1127,7 @@ and (max-width: 510px) and (min-height: 821px) and (max-height: 850px) {
         display: block;
       }
     .show {
-        display:block;
+        display: inline-flex;
     }
     .burger-name {
         position: absolute;
@@ -1167,7 +1167,7 @@ and (max-width: 510px) and (min-height: 851px) and (max-height: 900px) {
 and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -1203,7 +1203,7 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
         left: 5px;
     }
     .show {
-        display:block;
+        display: inline-flex;
     }
     .nav-header {
         position: fixed;
@@ -1224,7 +1224,7 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
 and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -1255,7 +1255,7 @@ and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
         display: block;
       }
     .show {
-        display:block;
+        display: inline-flex;
     }
     .nav-header {
         position: fixed;
@@ -1284,7 +1284,7 @@ and (max-width: 299px) {
     }
     .burger-nav {
         position: fixed;
-        display: block;
+        display: inline-flex;
         height: 50px;
         z-index: 1;
         width: 100%;
@@ -1315,7 +1315,7 @@ and (max-width: 299px) {
         display: block;
       }
     .show {
-        display:block;
+        display: inline-flex;
     }
     #intro {
         left: 42.5%;
