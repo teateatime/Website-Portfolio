@@ -53,6 +53,18 @@ html {
 .nav-links li a:hover::after {
     width: 100%;
 }
+.burger-links {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.burger-name {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+}
 /*--------------main-section-------------*/
 .main {
     display: flex;
@@ -657,6 +669,42 @@ and (max-width: 650px)  and (min-height: 700px) and (max-height: 1000px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     #smile-icon {
         left: 28%;
     }
@@ -786,6 +834,42 @@ and (max-width: 510px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     #smile-icon {
         left: 23%;
     }
@@ -914,6 +998,42 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     .main {
         height: 360%;
     }
@@ -927,6 +1047,42 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 821px) and (max-height: 900px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     .main {
         height: 390%;
     }
@@ -940,6 +1096,42 @@ and (max-width: 510px) and (min-height: 821px) and (max-height: 900px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     .main {
         height: 420%;
     }
@@ -952,6 +1144,42 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .show {
+        display:block;
+    }
     .main {
         height: 450%;
     }
