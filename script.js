@@ -18,3 +18,26 @@ function toggleIcon() {
         inDarkMode = true;
     }
 }
+
+function burgerMenu() {
+    var menu = document.getElementById("myDropdown");
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+}
+
+function toggleMenu(elementId) {
+    var ID1 = "AboutMe";
+    var ID2 = "ContactMe";
+    var ID3 = "Projects_"
+    var menu = document.getElementById("myDropdown");
+    if (elementId === ID1) {
+        menu.style.display = "none";
+    } else if (elementId === ID2) {
+        menu.style.display = "none";
+    } else if (elementId === ID3) {
+        menu.style.display = "none";
+    }
+}
