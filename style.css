@@ -61,6 +61,7 @@ html {
     z-index: 1;
 }
 .burger-name {
+    display: none;
     font-family: 'Brush Script MT', cursive;
     font-size: 1.5em;
     font-weight: 700;
@@ -769,7 +770,10 @@ and (max-width: 510px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -900,10 +904,49 @@ and (max-width: 510px) {
         left: 70%;
     }
 }
+@media screen and (min-width: 450px) and (max-width: 510px) {
+    .burger-name {
+        display: flex;
+    }
+    #smile-icon {
+        left: 28%;
+    }
+    #snake_game_pic {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 120em;
+        left: 27%;
+        overflow-y: hidden;
+    }
+    #devil_emoji {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 152em;
+        left: 27%;
+        overflow-y: hidden;
+    }
+    .contact-info {
+        left: 25%;
+    }
+}
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 500px) and (max-height: 579px) {
     .main {
         height: 620%;
+    }
+    #Service {
+        top: 36em;
+    }
+    .Responsive {
+        top: 900px; 
+    }
+    .Efficiency {
+        top: 1200px; 
+    }
+    .Clean {
+        top: 1500px; 
     }
     .contact-info {
         top: 575%;
@@ -946,7 +989,10 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -957,7 +1003,7 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
         left: 42.5%;
     }
     #Service {
-        top: 34em;
+        top: 36em;
         left: 40%;
     }
     .nav-header {
@@ -983,15 +1029,15 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
         column-gap: -1rem;
     }
     .Responsive {
-        top: 850px; 
+        top: 900px; 
     }
     .Efficiency {
         position: absolute;
-        top: 1150px; 
+        top: 1200px; 
     }
     .Clean {
         position: absolute;
-        top: 1450px; 
+        top: 1500px; 
     }
     #Proj {
         position: absolute;
@@ -1115,7 +1161,10 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -1169,7 +1218,10 @@ and (max-width: 510px) and (min-height: 821px) and (max-height: 855px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -1223,7 +1275,10 @@ and (max-width: 510px) and (min-height: 856px) and (max-height: 900px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -1277,7 +1332,10 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -1330,7 +1388,10 @@ and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-      }
+    }
+    .burger-name {
+        display: flex;
+    }
     .show {
         display:block;
     }
@@ -1342,5 +1403,179 @@ and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
     }
     .bot {
         top: 450%;
+    }
+}
+@media screen and (min-width: 250px)
+and (max-width: 299px) {
+    #smile-icon {
+        left: 16%;
+    }
+    .burger-nav {
+        position: fixed;
+        display: inline-block;
+        height: 50px;
+        top: initial;
+        z-index: 1;
+        width: 100%;
+        background-color: mintcream;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    }
+    #bars {
+        font-size: 32px;
+        position: absolute;
+        right: 5%;
+        top: 10px;
+        cursor: pointer;
+    }
+    .burger-links {
+        display: none;
+        position: absolute;
+        background-color: mintcream;
+        top: 50px;
+        right: 0;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .burger-links a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .burger-name {
+        display: flex;
+    }
+    .show {
+        display:block;
+    }
+    #intro {
+        left: 42.5%;
+    }
+    #Service {
+        top: 36em;
+        left: 37%;
+    }
+    .nav-header {
+        position: fixed;
+        display: none;
+        z-index: 100;
+    }
+    .nav-links {
+        display: inline-flex;
+        width: 100%;
+    }
+    .nav-links li {
+        position: relative;
+        margin: 0 10px;
+        right: 10px;
+    }
+    .burger-name {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+    }
+    .main {
+        height: 540%;
+    }
+    .cards { 
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 0.25rem;
+        column-gap: -1rem;
+    }
+    .Responsive {
+        top: 900px; 
+    }
+    .Efficiency {
+        position: absolute;
+        top: 1200px; 
+    }
+    .Clean {
+        position: absolute;
+        top: 1500px; 
+    }
+    #Proj {
+        position: absolute;
+        top: 1850px;
+        left: 35%;
+        color: mintcream;
+        text-shadow: 1px 1px 1px black, 0 0 10px aquamarine, 0 0 5px lightblue;
+    }
+    #snake_game_pic {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 120em;
+        left: 16%;
+        overflow-y: hidden;
+    }
+    #devil_emoji {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: 152em;
+        left: 16%;
+        overflow-y: hidden;
+    }
+    .Snake_Game {
+        background-color: mintcream;
+        position: relative;
+        color:black;
+        padding: 2rem;
+        width: 85%;
+        top: 2150px;
+        left: 6%;
+        height: 15em;
+        box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    }
+    .Evil_Wordle {
+        background-color: mintcream;
+        position: relative;
+        color:black;
+        padding: 2rem;
+        width: 85%;
+        top: 2450px;
+        left: 6%;
+        height: 20em;
+        box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    }
+    .contact-info {
+        position: absolute;
+        top: 480%;
+        left: 15%;
+    }
+    .contact-intro {
+        left: -3em;
+    }
+    #Choices {
+        display: none;
+    }
+    .contact-body {
+        left: -2.5em;
+        top: 225%;
+        width: 200%;
+    }
+    .social-contacts {
+        left: -2em;
+    }
+    .bot {
+        top: 540%;
+        width: 100%;
+        height: 50%;
+    }
+    .social-media-links {
+        left: 3%;
+    }
+    .footer-copyright {
+        display: flex;
+        left: 20%;
+        top: 200px;
+    }
+    #QL {
+        right: 20%;
+        left: 2px;
+    }
+    .footer-links-container {
+        left: 70%;
     }
 }
