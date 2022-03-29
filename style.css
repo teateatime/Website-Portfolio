@@ -220,29 +220,49 @@ html {
 #light_darkBtn:hover {
     background-color: #555;
 }
+.dark-mode .nav-header {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .burger-nav {
+    background: linear-gradient(#403F44, #1E1B32);
+}
 .dark-mode .main {
     background: black;
 }
-
 .dark-mode #smile-icon {
     color:white;
 }
-
 .dark-mode .about-me-main {
     background: black;
     color: white;
 }
-
 .dark-mode #line-break {
     border-color: white;
 }
-
 .dark-mode .info-body {
     color: white;
 }
 .dark-mode .contact-me-main {
     background: black;
     color: white;
+}
+.dark-mode .Responsive {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .Efficiency {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .Clean {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .Snake_Game {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .Evil_Wordle {
+    background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .bot {
+    background: linear-gradient(#403F44, #1E1B32);
 }
 /*----------------footer-section----------------*/
 .bot {
