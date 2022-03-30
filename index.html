@@ -17,14 +17,14 @@
     <header class="nav-header">
         <ul class="nav-links">
             <div class="name">Tim Truong</div>
-            <li><a href="#intro">About</a></li>
-            <li><a href="#contact-me">Contact</a></li>
-            <li><a href="#Proj">Projects</a></li>
+            <li><a href="#intro" class="About-Me">About</a></li>
+            <li><a href="#contact-me" class="Contacts">Contact</a></li>
+            <li><a href="#Proj" class="ProjNav">Projects</a></li>
         </ul>
     </header>
     <div class="burger-nav">
-       <i class="fa fa-bars" onclick="burgerMenu();" id="bars"></i>
-       <div class="burger-name">Tim Truong</div>
+        <i class="fa fa-bars" onclick="burgerMenu();" id="bars"></i>
+        <div class="burger-name">Tim Truong</div>
        <div class="burger-links" id="myDropdown" style="display: none">
         <a href="#intro" id="AboutMe" onclick="toggleMenu(this.id)">About</a>
         <a href="#contact-me" id="ContactMe" onclick="toggleMenu(this.id)">Contact</a>
@@ -34,7 +34,7 @@
     <div class="main">
         <button type="button" onclick="darkMode(); toggleIcon(this)" class="theme-switcher">
             <i class="fa" id="icon-theme" style= "color:#d8c658;">&#xf185;</i></button>
-        <img src="smile.jpg" id="smile-icon">
+            <img src="smile.jpg" id="smile-icon">
         <div class="my-info">
             <h3 id="intro">About</h3>
             <hr id="line-break">
@@ -49,7 +49,7 @@
         </div>
         <h2 id="Service">Services</h2>
         <div class="cards">
-            <div class="Responsive">
+            <div class="Responsive" id="RCard">
                 <i class="fa fa-laptop" id="laptop-icon" style="font-size: 36px;"></i>
                 <h4 id="skill-box1">Responsive Web Design</h4>
                 <p>Having a responsive design makes websites look beautiful in all platforms. Through my work and 
@@ -127,9 +127,9 @@
             <ul class="footer-links">
             <div class="footer-links-container">
             <p id="QL">Quick Links</p>
-            <li><a href="#intro">About</a></li>
-            <li><a href="#Proj">Projects</a></li>
-            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#intro" class="About-Me">About</a></li>
+            <li><a href="#contact-me" class="Contacts">Contact</a></li>
+            <li><a href="#Proj" class="ProjNav">Projects</a></li>
             </div>
             </ul>
         </nav>
