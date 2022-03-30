@@ -12,6 +12,7 @@ html {
     position: absolute;
     background-color: mintcream;
     width: 100%;
+    overflow-y: hidden;
 }
 .name {
     font-family: 'Brush Script MT', cursive;
