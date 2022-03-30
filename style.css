@@ -201,6 +201,7 @@ html {
     position: absolute;
     top: 105em;
     left: 35%;
+    overflow: hidden;
 }
 .contact-body {
     overflow: hidden;
