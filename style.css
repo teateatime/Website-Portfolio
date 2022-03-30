@@ -22,9 +22,13 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding: 15px 30px;
+    font-size: 1em;
     font-weight: 400;
     justify-content: space-between;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+.About-Me, .Contacts, .ProjNav {
+    font-weight: 500;
 }
 .nav-links li {
     display: inline-block;
@@ -224,6 +228,18 @@ html {
 .dark-mode .nav-header {
     background: linear-gradient(#403F44, #1E1B32);
 }
+.dark-mode .name {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .About-Me {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .Contacts {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .ProjNav {
+    text-shadow: 0 0 5px #dfe1e6;
+}
 .dark-mode .burger-nav {
     background: linear-gradient(#403F44, #1E1B32);
 }
@@ -243,6 +259,9 @@ html {
 .dark-mode .info-body {
     color: white;
 }
+.dark-mode #skill-box1, .dark-mode #skill-box2, .dark-mode #skill-box3 {
+    text-shadow: 0 0 5px #dfe1e6;
+}
 .dark-mode .contact-me-main {
     background: black;
     color: white;
@@ -259,11 +278,23 @@ html {
 .dark-mode .Snake_Game {
     background: linear-gradient(#403F44, #1E1B32);
 }
+.dark-mode #Snake_Game_Project, .dark-mode #Evil_Wordle_Project {
+    text-shadow: 0 0 5px #dfe1e6;
+}
 .dark-mode .Evil_Wordle {
     background: linear-gradient(#403F44, #1E1B32);
 }
 .dark-mode .bot {
     background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode #social-quicklinks {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode #QL {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .footer-copyright {
+    text-shadow: 0 0 5px #dfe1e6;
 }
 /*----------------footer-section----------------*/
 .bot {
