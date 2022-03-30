@@ -200,7 +200,6 @@ html {
     position: absolute;
     top: 105em;
     left: 35%;
-    overflow-y: hidden;
 }
 .contact-body {
     overflow: hidden;
@@ -243,8 +242,31 @@ html {
 .dark-mode .burger-nav {
     background: linear-gradient(#403F44, #1E1B32);
 }
+.dark-mode .burger-name {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode #bars {
+    text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .burger-links {
+    display: none;
+    position: absolute;
+    background: linear-gradient(#403F44, #1E1B32);
+    top: 50px;
+    right: 0;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dark-mode .burger-links a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0 0 5px #dfe1e6;
+    display: block;
+}
 .dark-mode .main {
-    background: black;
+    background: #121212;
 }
 .dark-mode #smile-icon {
     color:white;
@@ -257,10 +279,25 @@ html {
     border-color: white;
 }
 .dark-mode .info-body {
-    color: white;
+    color: rgb(126, 114, 114);
 }
 .dark-mode #skill-box1, .dark-mode #skill-box2, .dark-mode #skill-box3 {
     text-shadow: 0 0 5px #dfe1e6;
+}
+.dark-mode .Res-Text {
+    text-shadow: 0 0 2px #d41132;
+}
+.dark-mode .Eff-Text {
+    text-shadow: 0 0 2px #0ab939;
+}
+.dark-mode .Clean-Text {
+    text-shadow: 0 0 2px #550dc9;
+}
+.dark-mode .Snake-Text {
+    text-shadow: 0 0 2px #0dc981;
+}
+.dark-mode .Wordle-Text {
+    text-shadow: 0 0 2px #8b0cbd;
 }
 .dark-mode .contact-me-main {
     background: black;
@@ -283,6 +320,9 @@ html {
 }
 .dark-mode .Evil_Wordle {
     background: linear-gradient(#403F44, #1E1B32);
+}
+.dark-mode .contact-body {
+    color: rgb(126, 114, 114);
 }
 .dark-mode .bot {
     background: linear-gradient(#403F44, #1E1B32);
