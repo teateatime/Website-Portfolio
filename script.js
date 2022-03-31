@@ -41,3 +41,14 @@ function toggleMenu(elementId) {
         menu.style.display = "none";
     }
 }
+
+window.onclick = function(event) {
+    if (!event.target.matches('.bar')) {
+        var menu = document.getElementById("myDropdown");
+
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        }
+    }
+}
+
