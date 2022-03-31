@@ -413,6 +413,19 @@ html {
     padding-right: 10px 10px;
     position: relative;
 }
+/*---------media-queries-section-----------*/
+@media screen and (min-width: 1450px) and
+(max-width: 1700px) {
+    #smile-icon {
+        left: 43.5%;
+    }
+    #snake_game_pic {
+        left: 25%;
+    }
+    #devil_emoji {
+        right: 25%;
+    }
+}
 @media screen and (min-width: 1000px)
 and (max-width: 1300px) and (min-height: 630px) and (max-height: 1300px) {
     .main {
