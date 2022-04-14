@@ -1176,6 +1176,9 @@ and (max-width: 510px) and (min-height: 500px) and (max-height: 579px) {
     .bot {
         top: 620%;
     }
+    .info-body {
+        left: 5%;
+    }
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
@@ -1343,6 +1346,9 @@ and (max-width: 510px) and (min-height: 580px) and (max-height: 700px) {
     .footer-links-container {
         left: 70%;
     }
+    .info-body {
+        left: 5%;
+    }
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
@@ -1399,6 +1405,9 @@ and (max-width: 510px) and (min-height: 901px) and (max-height: 950px) {
     .bot {
         top: 360%;
         height: 220px;
+    }
+    .info-body {
+        left: 5%;
     }
 }
 @media screen and (min-width: 300px)
@@ -1457,6 +1466,9 @@ and (max-width: 510px) and (min-height: 821px) and (max-height: 855px) {
         top: 390%;
         height: 220px;
     }
+    .info-body {
+        left: 5%;
+    }
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 856px) and (max-height: 900px) {
@@ -1514,6 +1526,9 @@ and (max-width: 510px) and (min-height: 856px) and (max-height: 900px) {
         top: 380%;
         height: 220px;
     }
+    .info-body {
+        left: 5%;
+    }
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
@@ -1570,6 +1585,9 @@ and (max-width: 510px) and (min-height: 780px) and (max-height: 820px) {
     .bot {
         top: 420%;
     }
+    .info-body {
+        left: 5%;
+    }
 }
 @media screen and (min-width: 300px)
 and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
@@ -1625,6 +1643,9 @@ and (max-width: 510px) and (min-height: 700px) and (max-height: 779px) {
     }
     .bot {
         top: 450%;
+    }
+    .info-body {
+        left: 5%;
     }
 }
 @media screen and (min-width: 250px)
@@ -1799,5 +1820,8 @@ and (max-width: 299px) {
     }
     .footer-links-container {
         left: 70%;
+    }
+    .info-body {
+        left: 5%;
     }
 }
