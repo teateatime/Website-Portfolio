@@ -3,6 +3,9 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+body {
+    overflow-x: hidden !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -104,7 +107,6 @@ html {
     left: 25%;
     top: 305px;
     border-color: black;
-    overflow-y: hidden;
 }
 .info-body {
     position: absolute;
@@ -112,7 +114,6 @@ html {
     left: 25%;
     top: 350px;
     font-size: 18px;
-    overflow-y: hidden;
 }
 #Service {
     position: absolute;
