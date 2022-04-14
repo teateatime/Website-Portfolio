@@ -104,6 +104,7 @@ html {
     left: 25%;
     top: 305px;
     border-color: black;
+    overflow-y: hidden;
 }
 .info-body {
     position: absolute;
@@ -111,6 +112,7 @@ html {
     left: 25%;
     top: 350px;
     font-size: 18px;
+    overflow-y: hidden;
 }
 #Service {
     position: absolute;
@@ -156,7 +158,6 @@ html {
     left: 46%;
     color: mintcream;
     text-shadow: 1px 1px 1px black, 0 0 10px aquamarine, 0 0 5px lightblue;
-    overflow-y: hidden;
 }
 .proj-cards {
     max-width: 200px;
