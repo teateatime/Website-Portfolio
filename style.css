@@ -551,7 +551,7 @@ and (max-width: 1400px) and (min-height: 800px) and (max-height: 1050px) {
         height: 270%;
     }
     #smile-icon {
-        left: 40.5%;
+        left: 41.5%;
     }
     .cards { grid-template-columns: repeat(2, 1fr); }
     .Clean {
@@ -686,7 +686,16 @@ and (max-width: 950px) and (min-height: 1201px) and (max-height: 1300px) {
     }
 }
 @media screen and (min-width: 652px)
-and (max-width: 999px) and (min-height: 660px) and (max-height: 750px){
+and (max-width: 999px) and (min-height: 652px) and (max-height: 704px){
+    .main{
+        height: 315%;
+    }
+    .bot {
+        top: 315%;
+    }
+}
+@media screen and (min-width: 652px)
+and (max-width: 999px) and (min-height: 705px) and (max-height: 750px){
     .main{
         height: 285%;
     }
@@ -697,10 +706,10 @@ and (max-width: 999px) and (min-height: 660px) and (max-height: 750px){
 @media screen and (min-width: 652px)
 and (max-width: 999px) and (min-height: 751px) and (max-height: 850px){
     .main{
-        height: 255%;
+        height: 275%;
     }
     .bot {
-        top: 255%;
+        top: 275%;
     }
 }
 @media screen and (min-width: 1000px)
@@ -729,7 +738,127 @@ and (max-width: 1000px) and (min-height: 1051px) and (max-height: 1400px) {
     }
 }
 @media screen and (min-width: 651px)
-and (max-width: 950px) and (min-height: 800px) and (max-height: 1050px) {
+and (max-width: 950px) and (min-height: 851px) and (max-height: 919px) {
+    .main {
+        height: 240%;
+    }
+    #smile-icon {
+        left: 38.5%;
+    }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    .Clean {
+        position: absolute;
+        width: 50%;
+        right: 20%;
+        left: 25%;
+        top: 900px;
+    }
+    #Proj {
+        top: 1250px;
+        left: 46%;
+        color: mintcream;
+        text-shadow: 1px 1px 1px black, 0 0 10px aquamarine, 0 0 5px lightblue;
+    }
+    .Snake_Game, .Evil_Wordle {
+        top: 630%;
+    }
+    #snake_game_pic {
+        top: 1300px;
+        left: 20%;
+    }
+    #devil_emoji {
+        top: 1300px;
+        right: 20%;
+    }
+    .contact-intro {
+        top: 1500px;
+    }
+    .contact-info {
+        top: 1850px;
+        left: 35%;
+    }
+    .contact-body {
+        left: -5em;
+        top: 1900px;
+        width: 200%;
+    }
+    .bot {
+        top: 240%;
+        width: 100%;
+    }
+    .footer-copyright {
+        left: 37.5%;
+    }
+    .social-media-links {
+        left: 5%;
+    }
+    .info-body {
+        left: 2%;
+        text-align: -webkit-center;
+    }
+}
+@media screen and (min-width: 651px)
+and (max-width: 950px) and (min-height: 920px) and (max-height: 1000px) {
+    .main {
+        height: 220%;
+    }
+    #smile-icon {
+        left: 38.5%;
+    }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    .Clean {
+        position: absolute;
+        width: 50%;
+        right: 20%;
+        left: 25%;
+        top: 900px;
+    }
+    #Proj {
+        top: 1250px;
+        left: 46%;
+        color: mintcream;
+        text-shadow: 1px 1px 1px black, 0 0 10px aquamarine, 0 0 5px lightblue;
+    }
+    .Snake_Game, .Evil_Wordle {
+        top: 630%;
+    }
+    #snake_game_pic {
+        top: 1300px;
+        left: 20%;
+    }
+    #devil_emoji {
+        top: 1300px;
+        right: 20%;
+    }
+    .contact-intro {
+        top: 1500px;
+    }
+    .contact-info {
+        top: 1850px;
+        left: 35%;
+    }
+    .contact-body {
+        left: -5em;
+        top: 1900px;
+        width: 200%;
+    }
+    .bot {
+        top: 220%;
+        width: 100%;
+    }
+    .footer-copyright {
+        left: 37.5%;
+    }
+    .social-media-links {
+        left: 5%;
+    }
+    .info-body {
+        left: 2%;
+        text-align: -webkit-center;
+    }
+}
+@media screen and (min-width: 651px)
+and (max-width: 950px) and (min-height: 1001px) and (max-height: 1050px) {
     .main {
         height: 200%;
     }
@@ -858,6 +987,7 @@ and (max-width: 650px) {
     }
     #Service {
         top: 700px;
+        left: 42%;
     }
     .cards { grid-template-columns: repeat(2, 1fr); }
     .Responsive, .Efficiency {
