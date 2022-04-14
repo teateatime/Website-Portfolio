@@ -156,6 +156,7 @@ html {
     left: 46%;
     color: mintcream;
     text-shadow: 1px 1px 1px black, 0 0 10px aquamarine, 0 0 5px lightblue;
+    overflow-y: hidden;
 }
 .proj-cards {
     max-width: 200px;
@@ -195,7 +196,6 @@ html {
 .contact-me-main {
     font-weight: 300;
     height: 100%;
-    overflow-y: hidden;
 }
 .contact-info {
     position: absolute;
