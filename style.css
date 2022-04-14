@@ -195,6 +195,7 @@ html {
 .contact-me-main {
     font-weight: 300;
     height: 100%;
+    overflow-y: hidden;
 }
 .contact-info {
     position: absolute;
