@@ -111,7 +111,6 @@ html {
     left: 25%;
     top: 350px;
     font-size: 18px;
-    overflow-y: hidden;
 }
 #Service {
     position: absolute;
@@ -201,7 +200,7 @@ html {
     position: absolute;
     top: 105em;
     left: 35%;
-    /*overflow-y: hidden;*/
+    overflow-y: hidden;
 }
 .contact-body {
     overflow: hidden;
