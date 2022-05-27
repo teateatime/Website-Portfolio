@@ -31,7 +31,7 @@ function burgerMenu() {
 function toggleMenu(elementId) {
     var ID1 = "AboutMe";
     var ID2 = "ContactMe";
-    var ID3 = "Projects_"
+    var ID3 = "Projects_";
     var menu = document.getElementById("myDropdown");
     if (elementId === ID1) {
         menu.style.display = "none";
